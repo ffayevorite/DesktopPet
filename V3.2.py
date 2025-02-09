@@ -33,10 +33,10 @@ class Pet:
 
         # initialize frame arrays
         self.animation = {
-            'idle': [tk.PhotoImage(file=r"D:\my_project\desktop_pet\Stay.gif", format='gif -index %i' % i) for i in range(4)],
-            'sleep': [tk.PhotoImage(file=r"D:\my_project\desktop_pet\Nap.gif", format='gif -index %i' % i) for i in range(4)] * 3,
-            'walk_left': [tk.PhotoImage(file=r"D:\my_project\desktop_pet\WalkGifR.gif", format='gif -index %i' % i) for i in range(2)],
-            'walk_right': [tk.PhotoImage(file=r"D:\my_project\desktop_pet\WalkGifL.gif", format='gif -index %i' % i) for i in range(2)]
+            'idle': [tk.PhotoImage(file=r"D:\my_project\desktop_pet_push\Stay.gif", format='gif -index %i' % i) for i in range(4)],
+            'sleep': [tk.PhotoImage(file=r"D:\my_project\desktop_pet_push\Nap.gif", format='gif -index %i' % i) for i in range(4)] * 3,
+            'walk_left': [tk.PhotoImage(file=r"D:\my_project\desktop_push\WalkGifR.gif", format='gif -index %i' % i) for i in range(2)],
+            'walk_right': [tk.PhotoImage(file=r"D:\my_project\desktop_push\WalkGifL.gif", format='gif -index %i' % i) for i in range(2)]
         }
 
         # Debug: Check if GIFs are loaded
